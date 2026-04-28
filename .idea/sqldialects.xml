@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/InsertDataQuery.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Query1.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/QueryPatterns.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/SELECTquery.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/TriggerQuery.sql" dialect="MySQL" />
+  </component>
+</project>
