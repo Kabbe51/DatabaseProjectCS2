@@ -34,14 +34,15 @@ CREATE TABLE patterns (
 CREATE TABLE inventory (
     user_id INT NOT NULL,
     pattern_id INT NOT NULL,
-    instance_id INT NOT NULL,
+    count INT NOT NULL,
 
-    PRIMARY KEY (user_id, pattern_id, instance_id),
+    PRIMARY KEY (user_id, pattern_id),
 
     FOREIGN KEY (user_id) REFERENCES users(user_id),
     FOREIGN KEY (pattern_id) REFERENCES patterns(pattern_id)
 );
 
 select * from inventory;
+
 
 
