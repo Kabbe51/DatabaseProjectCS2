@@ -2,6 +2,7 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/InsertDataQuery.sql" value="1d736d6e-09e7-4508-8e89-2541c026a381" />
+    <file url="file://$PROJECT_DIR$/MarketPlace.sql" value="1d736d6e-09e7-4508-8e89-2541c026a381" />
     <file url="file://$PROJECT_DIR$/Query1.sql" value="1d736d6e-09e7-4508-8e89-2541c026a381" />
     <file url="file://$PROJECT_DIR$/QueryPatterns.sql" value="1d736d6e-09e7-4508-8e89-2541c026a381" />
     <file url="file://$PROJECT_DIR$/SELECTquery.sql" value="1d736d6e-09e7-4508-8e89-2541c026a381" />
