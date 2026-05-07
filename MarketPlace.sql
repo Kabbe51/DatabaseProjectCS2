@@ -16,3 +16,4 @@ ON DELETE CASCADE;
 
 SELECT * FROM inventory;
 
+SELECT * FROM users;

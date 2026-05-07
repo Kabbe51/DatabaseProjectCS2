@@ -78,12 +78,17 @@ BEGIN
         SET message = 'No change in inventory';
     END IF;
 
-    -- Uppdaterar kolumnen latest_change i users-tabellen
+    -- Updates the column latest_change in the user table
     UPDATE users
     SET latest_change = message
     WHERE user_id = NEW.user_id;
 END;
 //
+
+DELIMITER ;
+
+
+
 
 select * from users;
 
