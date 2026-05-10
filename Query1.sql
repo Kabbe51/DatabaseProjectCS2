@@ -43,6 +43,8 @@ CREATE TABLE inventory (
 );
 
 select * from inventory;
+select * from patterns;
+select * from users;
 
-
+select * from information_schema.tables WHERE TABLE_SCHEMA = 'cs2';
 

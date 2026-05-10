@@ -1,4 +1,4 @@
-USE cs7;
+USE cs2;
 
 SELECT * FROM patterns;
 

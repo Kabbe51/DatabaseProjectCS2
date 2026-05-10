@@ -12,7 +12,7 @@ BEGIN
         -- Add new record or increment count if the item already exists.
     INSERT INTO inventory (user_id, pattern_id, count)
     VALUES (target_user_id, target_pattern_id, 1)
-    ON DUPLICATE KEY UPDATE count = count + 1; -- Increment count if the item already exists.
+    ON DUPLICATE KEY UPDATE count = count + 1; -- Increment count of the item already exists.
 
     -- Return the updated row to the backend.
     SELECT * FROM inventory
@@ -22,11 +22,16 @@ END //
 
 DELIMITER ;
 
-CALL ADD_SKIN_TO_USER(1, 81);
-select * from users
+CALL ADD_SKIN_TO_USER(2, 42);
+#Call add_skin_to_user(1, 81); Gives a M9-Bayonet full fade to user with "user_id 1".
+
+
+select * from users;
+
 SELECT * FROM inventory
 WHERE user_id = 1 AND pattern_id = 81;
-#Call add_skin_to_user(1, 81); Gives a M9-Bayonet full fade to user with "user_id 1".
+
+
 
 
 select * from inventory;
@@ -87,8 +92,6 @@ END;
 
 DELIMITER ;
 
-
-
+select * from inventory;
 
 select * from users;
-
