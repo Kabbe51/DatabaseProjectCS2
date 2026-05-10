@@ -8,7 +8,6 @@ SELECT * FROM skins;
 
 SELECT * FROM patterns;
 
-ALTER TABLE patterns ADD CONSTRAINT fk_skin_id FOREIGN KEY (skin_id) REFERENCES skins(skin_id);
 
 
 SELECT
@@ -25,7 +24,7 @@ INNER JOIN knives k ON s.knife_id = k.knife_id;
 -- This "select join" is used to show exactly what username has which exact knife, and what the knifes name is,
 -- what skin the knife has and what pattern it has and how many of it the user has.
 
-call add_skin_to_user(1, 1)
+call add_skin_to_user(1, 1);
 
 SELECT
     u.username,
