@@ -19,7 +19,7 @@ SELECT
 FROM inventory i -- sets inventory as the starting point for the data
 INNER JOIN users u ON i.user_id = u.user_id -- looks up the user_id from the inventory in the users table to find who owns the item
 INNER JOIN patterns p ON i.pattern_id = p.pattern_id -- looks up pattern_id to identify which specific pattern is in the inventory
-INNER JOIN skins s ON p.skinknife_id = s.skinknife_id --
+INNER JOIN skins s ON p.skinknife_id = s.skinknife_id
 INNER JOIN knives k ON s.knife_id = k.knife_id;
 -- This "select join" is used to show exactly what username has which exact knife, and what the knifes name is,
 -- what skin the knife has and what pattern it has and how many of it the user has.
@@ -34,5 +34,5 @@ FROM inventory i
 INNER JOIN users u ON i.user_id = u.user_id
 GROUP BY u.username;
 -- This is a grouping used to check exactly how many items a user has and what the largest stack of the same item is.
-
+select * from users;
 select * from inventory;
