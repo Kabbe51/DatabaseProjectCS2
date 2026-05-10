@@ -34,7 +34,7 @@ INSERT INTO patterns (pattern_id, skinknife_id, pattern_name) VALUES (98, 20, 'B
 INSERT INTO patterns (pattern_id, skinknife_id, pattern_name) VALUES (99, 20, 'Backside Gold Gem');
 INSERT INTO patterns (pattern_id, skinknife_id, pattern_name) VALUES (100, 20, 'Frontside Blue Gem');
 
-
+INSERT INTO patterns (pattern_id, skinknife_id, pattern_name) VALUES
 (101, 21, 'baseVK'), (102, 21, 'baseVK7'), (103, 21, 'baseVK8'), (104, 21, 'baseVK9'), (105, 21, 'baseVK10'),
 (106, 22, 'fadeFull'), (107, 22, 'fade9060'), (108, 22, 'fade901010'), (109, 22, 'fade910'), (110, 22, 'fade99'),
 (111, 23, 'Sapphire'), (112, 23, 'Ruby'), (113, 23, 'Pink Galaxy'), (114, 23, 'Black Pearl'), (115, 23, 'Diamond'),
